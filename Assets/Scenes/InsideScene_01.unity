@@ -1467,7 +1467,7 @@ Transform:
   m_GameObject: {fileID: 1055366702}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 8, z: 14.69}
-  m_LocalScale: {x: 20, y: 10, z: 0.2}
+  m_LocalScale: {x: 15, y: 9.5, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -3058,6 +3058,7 @@ GameObject:
   - component: {fileID: 1685756666}
   - component: {fileID: 1685756665}
   - component: {fileID: 1685756669}
+  - component: {fileID: 1685756670}
   m_Layer: 0
   m_Name: PlainsWindow
   m_TagString: Untagged
@@ -3136,7 +3137,7 @@ Transform:
   m_GameObject: {fileID: 1685756664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 8, z: -14.67}
-  m_LocalScale: {x: 20, y: 10, z: 0.2}
+  m_LocalScale: {x: 15, y: 9.5, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -3207,7 +3208,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1685756670}
+        m_TargetAssemblyTypeName: XRTerra_SceneChanger, Assembly-CSharp
+        m_MethodName: SceneToChange
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -3246,6 +3259,18 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1685756670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685756664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9adc273b2945cca4a90d3e8b2d161915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1720903238
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,6 +3578,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1214376307}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 47714603}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
