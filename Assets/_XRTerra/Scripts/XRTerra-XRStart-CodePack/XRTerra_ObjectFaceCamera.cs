@@ -18,5 +18,5 @@ public class XRTerra_ObjectFaceCamera : MonoBehaviour
     {
         transform.LookAt(transform.position + cameraToFace.transform.rotation * Vector3.forward, cameraToFace.transform.rotation * Vector3.up);
     }
- 
+    
 }
