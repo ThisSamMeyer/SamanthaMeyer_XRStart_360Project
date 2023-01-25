@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 09e8db96af30b784981a424349b5d6c7
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Dancing Script
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 11535d11fd163d74c8610254f15a1bc8, type: 3}
+  - {fileID: 12800000, guid: 0378645668f9f1446aa7d30a860ec1f1, type: 3}
+  - {fileID: 12800000, guid: 53067a0401e6c0d4ca6a5a056310bf67, type: 3}
+  - {fileID: 12800000, guid: 21a243b25cb8f644e96b695ec0dd65cf, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
